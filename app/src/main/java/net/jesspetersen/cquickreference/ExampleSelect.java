@@ -1,0 +1,13 @@
+package net.jesspetersen.cquickreference;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class ExampleSelect extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_example_select);
+    }
+}
