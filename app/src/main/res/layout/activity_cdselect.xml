@@ -43,7 +43,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Variables"
+        android:text="Data Types"
         android:id="@+id/button6"
         android:background="#6aa7f8"
         android:clickable="true"
@@ -57,7 +57,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Placeholder1"
+        android:text="Variables"
         android:id="@+id/button7"
         android:background="#6aa7f8"
         android:clickable="true"

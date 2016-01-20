@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="net.jesspetersen.cquickreference">
 
+    <supports-screens
+        android:requiresSmallestWidthDp="360"
+        android:largestWidthLimitDp="480" />
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,7 +24,7 @@
         <activity android:name=".ExampleSelect" />
         <activity android:name=".CDSelect" />
         <activity android:name=".GuideSelect" />
-        <activity android:name=".CDConsole"></activity>
+        <activity android:name=".CDConsole" />
     </application>
 
 </manifest>
