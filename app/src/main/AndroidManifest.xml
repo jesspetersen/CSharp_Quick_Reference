@@ -18,7 +18,8 @@
         <activity android:name=".About" />
         <activity android:name=".ExampleSelect" />
         <activity android:name=".CDSelect" />
-        <activity android:name=".GuideSelect"></activity>
+        <activity android:name=".GuideSelect" />
+        <activity android:name=".CDConsole"></activity>
     </application>
 
 </manifest>
