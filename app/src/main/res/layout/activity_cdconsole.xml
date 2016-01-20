@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f78686">
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -34,7 +40,7 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="127dp"
+        android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="The console is the first User Interface that a new C# developer encounters when they begin coding. It is used for testing, as well as learning and can be useful for many things. There are three main commands that we use with the Console while learning; WriteLine(), ReadLine(), ReadKey()."
         android:id="@+id/textView11"
@@ -129,3 +135,4 @@
         android:layout_alignStart="@+id/textView15" />
 
 </RelativeLayout>
+</ScrollView>
